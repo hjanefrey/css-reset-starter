@@ -210,11 +210,6 @@ fieldset{
     border: 2px groove var(--dk-gray);
 }
 
-legend{
-    padding: 0 2px;
-
-}
-
 /* Code for Custom Radios - Compare to Your zyBook, I added additional code to make these match my form styles */
 input[type=radio] + label {
     cursor: pointer;
@@ -284,9 +279,6 @@ textarea{
     color: var(--dk-gray);
 }
 
-figure{
-    margin: 1em 40px;
-}
 /* Code Styles */
 code{
     font-family: var(--code-fonts);
@@ -296,7 +288,6 @@ code{
 /* for the pre block */
 pre{
     font-family: var(--code-fonts);
-    margin: 1em 0;
 }
 
 pre code{
